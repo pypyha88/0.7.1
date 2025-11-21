@@ -20,7 +20,6 @@ class PizzaMoscow(
         tyroleanPizzaCount++
         println("Спасибо за покупку тирольской пиццы в Москве")
     }
-
     override fun showCheckPhoto() {
         println("У вас есть фотография чека?")
         println("1. Да\n2. Нет")

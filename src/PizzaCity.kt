@@ -9,6 +9,11 @@ abstract class PizzaCity(
     var sicilianPizzaCount = 0
     var tyroleanPizzaCount = 0
 
+    var garlicSauceCount = 0
+    var cheeseSauceCount = 0
+    val garlicSaucePrice = 50.0
+    val cheeseSaucePrice = 70.0
+
     abstract fun neapolitanPizzaSale()
     abstract fun romanPizzaSale()
     abstract fun sicilianPizzaSale()
@@ -24,4 +29,6 @@ abstract class PizzaCity(
                 tyroleanPizzaCount * tyroleanPizzaPrice
         println("Всего заработано денег: $money")
     }
+
+
 }
