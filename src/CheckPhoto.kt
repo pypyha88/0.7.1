@@ -1,2 +1,3 @@
 interface CheckPhoto {
+    fun showCheckPhoto()
 }

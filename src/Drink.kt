@@ -1,2 +1,3 @@
 interface Drink {
+    fun drinkSale()
 }
